@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div style={styles.container}>
-      <h1>AI Story Generator</h1>
+      <h1>AI Story Generator by Akrur Neupane</h1>
       <form onSubmit={handleSubmit} style={styles.form}>
         <textarea
           value={prompt}
