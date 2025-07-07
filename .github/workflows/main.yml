@@ -1,7 +1,5 @@
 on:
-  push:
-    branches:
-      - master  # Or any branch you want to trigger this on
+  workflow_dispatch
 
 jobs:
   build-and-deploy:
